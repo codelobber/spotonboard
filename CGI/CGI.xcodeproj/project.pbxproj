@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD32D09A1E48A15F00B209C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD32D0991E48A15F00B209C6 /* main.m */; };
+		BD32D09D1E48A15F00B209C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD32D09C1E48A15F00B209C6 /* AppDelegate.m */; };
+		BD32D0A01E48A15F00B209C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD32D09F1E48A15F00B209C6 /* ViewController.m */; };
+		BD32D0A31E48A15F00B209C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD32D0A11E48A15F00B209C6 /* Main.storyboard */; };
+		BD32D0A51E48A15F00B209C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD32D0A41E48A15F00B209C6 /* Assets.xcassets */; };
+		BD32D0A81E48A15F00B209C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD32D0A61E48A15F00B209C6 /* LaunchScreen.storyboard */; };
+		BD32D0B31E48A15F00B209C6 /* CGITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD32D0B21E48A15F00B209C6 /* CGITests.m */; };
+		BD32D0BE1E48A15F00B209C6 /* CGIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD32D0BD1E48A15F00B209C6 /* CGIUITests.m */; };
+		BD32D0CE1E48AD1700B209C6 /* WEmometr.m in Sources */ = {isa = PBXBuildFile; fileRef = BD32D0CD1E48AD1700B209C6 /* WEmometr.m */; };
+		BD32D0D11E48B4A400B209C6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD32D0D01E48B4A400B209C6 /* QuartzCore.framework */; };
+		BD32D0D81E4B1F5200B209C6 /* WEPlaydeckVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BD32D0D71E4B1F5200B209C6 /* WEPlaydeckVC.m */; };
+		BD32D0DD1E4B228400B209C6 /* WEPlaydeck.m in Sources */ = {isa = PBXBuildFile; fileRef = BD32D0DC1E4B228400B209C6 /* WEPlaydeck.m */; };
+		BD32D0E21E4B26A200B209C6 /* WEPlaydeckRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = BD32D0E11E4B26A200B209C6 /* WEPlaydeckRouter.m */; };
+		BD32D0EE1E4B4FA300B209C6 /* WEGlobalRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = BD32D0ED1E4B4FA300B209C6 /* WEGlobalRouter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD32D0AF1E48A15F00B209C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD32D08D1E48A15F00B209C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD32D0941E48A15F00B209C6;
+			remoteInfo = CGI;
+		};
+		BD32D0BA1E48A15F00B209C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD32D08D1E48A15F00B209C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD32D0941E48A15F00B209C6;
+			remoteInfo = CGI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD32D0951E48A15F00B209C6 /* CGI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD32D0991E48A15F00B209C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD32D09B1E48A15F00B209C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD32D09C1E48A15F00B209C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD32D09E1E48A15F00B209C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD32D09F1E48A15F00B209C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD32D0A21E48A15F00B209C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD32D0A41E48A15F00B209C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD32D0A71E48A15F00B209C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD32D0A91E48A15F00B209C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD32D0AE1E48A15F00B209C6 /* CGITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD32D0B21E48A15F00B209C6 /* CGITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGITests.m; sourceTree = "<group>"; };
+		BD32D0B41E48A15F00B209C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD32D0B91E48A15F00B209C6 /* CGIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD32D0BD1E48A15F00B209C6 /* CGIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGIUITests.m; sourceTree = "<group>"; };
+		BD32D0BF1E48A15F00B209C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD32D0CC1E48AD1700B209C6 /* WEmometr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEmometr.h; sourceTree = "<group>"; };
+		BD32D0CD1E48AD1700B209C6 /* WEmometr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEmometr.m; sourceTree = "<group>"; };
+		BD32D0D01E48B4A400B209C6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BD32D0D61E4B1F5200B209C6 /* WEPlaydeckVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WEPlaydeckVC.h; path = PlaydeckModule/WEPlaydeckVC.h; sourceTree = "<group>"; };
+		BD32D0D71E4B1F5200B209C6 /* WEPlaydeckVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WEPlaydeckVC.m; path = PlaydeckModule/WEPlaydeckVC.m; sourceTree = "<group>"; };
+		BD32D0D91E4B1FCC00B209C6 /* WEPlaydeckVCDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WEPlaydeckVCDelegate.h; sourceTree = "<group>"; };
+		BD32D0DB1E4B228400B209C6 /* WEPlaydeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WEPlaydeck.h; path = PlaydeckModule/WEPlaydeck.h; sourceTree = "<group>"; };
+		BD32D0DC1E4B228400B209C6 /* WEPlaydeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WEPlaydeck.m; path = PlaydeckModule/WEPlaydeck.m; sourceTree = "<group>"; };
+		BD32D0DE1E4B22B800B209C6 /* WEPlaydeckDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WEPlaydeckDelegate.h; path = PlaydeckModule/WEPlaydeckDelegate.h; sourceTree = "<group>"; };
+		BD32D0E01E4B26A200B209C6 /* WEPlaydeckRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WEPlaydeckRouter.h; path = PlaydeckModule/WEPlaydeckRouter.h; sourceTree = "<group>"; };
+		BD32D0E11E4B26A200B209C6 /* WEPlaydeckRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WEPlaydeckRouter.m; path = PlaydeckModule/WEPlaydeckRouter.m; sourceTree = "<group>"; };
+		BD32D0EC1E4B4FA300B209C6 /* WEGlobalRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEGlobalRouter.h; sourceTree = "<group>"; };
+		BD32D0ED1E4B4FA300B209C6 /* WEGlobalRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEGlobalRouter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD32D0921E48A15F00B209C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD32D0D11E48B4A400B209C6 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD32D0AB1E48A15F00B209C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD32D0B61E48A15F00B209C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD32D08C1E48A15F00B209C6 = {
+			isa = PBXGroup;
+			children = (
+				BD32D0971E48A15F00B209C6 /* CGI */,
+				BD32D0B11E48A15F00B209C6 /* CGITests */,
+				BD32D0BC1E48A15F00B209C6 /* CGIUITests */,
+				BD32D0961E48A15F00B209C6 /* Products */,
+				BD32D0CF1E48B4A300B209C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD32D0961E48A15F00B209C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD32D0951E48A15F00B209C6 /* CGI.app */,
+				BD32D0AE1E48A15F00B209C6 /* CGITests.xctest */,
+				BD32D0B91E48A15F00B209C6 /* CGIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD32D0971E48A15F00B209C6 /* CGI */ = {
+			isa = PBXGroup;
+			children = (
+				BD32D0D21E4B1C4E00B209C6 /* playdeckModule */,
+				BD32D09B1E48A15F00B209C6 /* AppDelegate.h */,
+				BD32D09C1E48A15F00B209C6 /* AppDelegate.m */,
+				BD32D0EC1E4B4FA300B209C6 /* WEGlobalRouter.h */,
+				BD32D0ED1E4B4FA300B209C6 /* WEGlobalRouter.m */,
+				BD32D0981E48A15F00B209C6 /* Supporting Files */,
+				BD32D0DF1E4B265700B209C6 /* assets */,
+				BD32D0CB1E48AC1500B209C6 /* testui */,
+			);
+			path = CGI;
+			sourceTree = "<group>";
+		};
+		BD32D0981E48A15F00B209C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD32D0991E48A15F00B209C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD32D0B11E48A15F00B209C6 /* CGITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD32D0B21E48A15F00B209C6 /* CGITests.m */,
+				BD32D0B41E48A15F00B209C6 /* Info.plist */,
+			);
+			path = CGITests;
+			sourceTree = "<group>";
+		};
+		BD32D0BC1E48A15F00B209C6 /* CGIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD32D0BD1E48A15F00B209C6 /* CGIUITests.m */,
+				BD32D0BF1E48A15F00B209C6 /* Info.plist */,
+			);
+			path = CGIUITests;
+			sourceTree = "<group>";
+		};
+		BD32D0CB1E48AC1500B209C6 /* testui */ = {
+			isa = PBXGroup;
+			children = (
+				BD32D09E1E48A15F00B209C6 /* ViewController.h */,
+				BD32D09F1E48A15F00B209C6 /* ViewController.m */,
+				BD32D0CC1E48AD1700B209C6 /* WEmometr.h */,
+				BD32D0CD1E48AD1700B209C6 /* WEmometr.m */,
+			);
+			name = testui;
+			sourceTree = "<group>";
+		};
+		BD32D0CF1E48B4A300B209C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD32D0D01E48B4A400B209C6 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD32D0D21E4B1C4E00B209C6 /* playdeckModule */ = {
+			isa = PBXGroup;
+			children = (
+				BD32D0D51E4B1E9F00B209C6 /* Interactor */,
+				BD32D0D41E4B1E9100B209C6 /* Presentor */,
+				BD32D0D31E4B1E8500B209C6 /* View */,
+				BD32D0E01E4B26A200B209C6 /* WEPlaydeckRouter.h */,
+				BD32D0E11E4B26A200B209C6 /* WEPlaydeckRouter.m */,
+			);
+			name = playdeckModule;
+			sourceTree = "<group>";
+		};
+		BD32D0D31E4B1E8500B209C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD32D0D61E4B1F5200B209C6 /* WEPlaydeckVC.h */,
+				BD32D0D71E4B1F5200B209C6 /* WEPlaydeckVC.m */,
+				BD32D0D91E4B1FCC00B209C6 /* WEPlaydeckVCDelegate.h */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BD32D0D41E4B1E9100B209C6 /* Presentor */ = {
+			isa = PBXGroup;
+			children = (
+				BD32D0DB1E4B228400B209C6 /* WEPlaydeck.h */,
+				BD32D0DC1E4B228400B209C6 /* WEPlaydeck.m */,
+				BD32D0DE1E4B22B800B209C6 /* WEPlaydeckDelegate.h */,
+			);
+			name = Presentor;
+			sourceTree = "<group>";
+		};
+		BD32D0D51E4B1E9F00B209C6 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		BD32D0DF1E4B265700B209C6 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				BD32D0A11E48A15F00B209C6 /* Main.storyboard */,
+				BD32D0A41E48A15F00B209C6 /* Assets.xcassets */,
+				BD32D0A61E48A15F00B209C6 /* LaunchScreen.storyboard */,
+				BD32D0A91E48A15F00B209C6 /* Info.plist */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD32D0941E48A15F00B209C6 /* CGI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD32D0C21E48A15F00B209C6 /* Build configuration list for PBXNativeTarget "CGI" */;
+			buildPhases = (
+				BD32D0911E48A15F00B209C6 /* Sources */,
+				BD32D0921E48A15F00B209C6 /* Frameworks */,
+				BD32D0931E48A15F00B209C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGI;
+			productName = CGI;
+			productReference = BD32D0951E48A15F00B209C6 /* CGI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD32D0AD1E48A15F00B209C6 /* CGITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD32D0C51E48A15F00B209C6 /* Build configuration list for PBXNativeTarget "CGITests" */;
+			buildPhases = (
+				BD32D0AA1E48A15F00B209C6 /* Sources */,
+				BD32D0AB1E48A15F00B209C6 /* Frameworks */,
+				BD32D0AC1E48A15F00B209C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD32D0B01E48A15F00B209C6 /* PBXTargetDependency */,
+			);
+			name = CGITests;
+			productName = CGITests;
+			productReference = BD32D0AE1E48A15F00B209C6 /* CGITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD32D0B81E48A15F00B209C6 /* CGIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD32D0C81E48A15F00B209C6 /* Build configuration list for PBXNativeTarget "CGIUITests" */;
+			buildPhases = (
+				BD32D0B51E48A15F00B209C6 /* Sources */,
+				BD32D0B61E48A15F00B209C6 /* Frameworks */,
+				BD32D0B71E48A15F00B209C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD32D0BB1E48A15F00B209C6 /* PBXTargetDependency */,
+			);
+			name = CGIUITests;
+			productName = CGIUITests;
+			productReference = BD32D0B91E48A15F00B209C6 /* CGIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD32D08D1E48A15F00B209C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Zubov Ivan";
+				TargetAttributes = {
+					BD32D0941E48A15F00B209C6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					BD32D0AD1E48A15F00B209C6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD32D0941E48A15F00B209C6;
+					};
+					BD32D0B81E48A15F00B209C6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD32D0941E48A15F00B209C6;
+					};
+				};
+			};
+			buildConfigurationList = BD32D0901E48A15F00B209C6 /* Build configuration list for PBXProject "CGI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD32D08C1E48A15F00B209C6;
+			productRefGroup = BD32D0961E48A15F00B209C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD32D0941E48A15F00B209C6 /* CGI */,
+				BD32D0AD1E48A15F00B209C6 /* CGITests */,
+				BD32D0B81E48A15F00B209C6 /* CGIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD32D0931E48A15F00B209C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD32D0A81E48A15F00B209C6 /* LaunchScreen.storyboard in Resources */,
+				BD32D0A51E48A15F00B209C6 /* Assets.xcassets in Resources */,
+				BD32D0A31E48A15F00B209C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD32D0AC1E48A15F00B209C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD32D0B71E48A15F00B209C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD32D0911E48A15F00B209C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD32D0DD1E4B228400B209C6 /* WEPlaydeck.m in Sources */,
+				BD32D0A01E48A15F00B209C6 /* ViewController.m in Sources */,
+				BD32D0D81E4B1F5200B209C6 /* WEPlaydeckVC.m in Sources */,
+				BD32D0CE1E48AD1700B209C6 /* WEmometr.m in Sources */,
+				BD32D0EE1E4B4FA300B209C6 /* WEGlobalRouter.m in Sources */,
+				BD32D09D1E48A15F00B209C6 /* AppDelegate.m in Sources */,
+				BD32D09A1E48A15F00B209C6 /* main.m in Sources */,
+				BD32D0E21E4B26A200B209C6 /* WEPlaydeckRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD32D0AA1E48A15F00B209C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD32D0B31E48A15F00B209C6 /* CGITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD32D0B51E48A15F00B209C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD32D0BE1E48A15F00B209C6 /* CGIUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD32D0B01E48A15F00B209C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD32D0941E48A15F00B209C6 /* CGI */;
+			targetProxy = BD32D0AF1E48A15F00B209C6 /* PBXContainerItemProxy */;
+		};
+		BD32D0BB1E48A15F00B209C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD32D0941E48A15F00B209C6 /* CGI */;
+			targetProxy = BD32D0BA1E48A15F00B209C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD32D0A11E48A15F00B209C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD32D0A21E48A15F00B209C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD32D0A61E48A15F00B209C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD32D0A71E48A15F00B209C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD32D0C01E48A15F00B209C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD32D0C11E48A15F00B209C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD32D0C31E48A15F00B209C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CGI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.rest.best.CGI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD32D0C41E48A15F00B209C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CGI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.rest.best.CGI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD32D0C61E48A15F00B209C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CGITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.rest.best.CGITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CGI.app/CGI";
+			};
+			name = Debug;
+		};
+		BD32D0C71E48A15F00B209C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CGITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.rest.best.CGITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CGI.app/CGI";
+			};
+			name = Release;
+		};
+		BD32D0C91E48A15F00B209C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CGIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.rest.best.CGIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CGI;
+			};
+			name = Debug;
+		};
+		BD32D0CA1E48A15F00B209C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CGIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.rest.best.CGIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CGI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD32D0901E48A15F00B209C6 /* Build configuration list for PBXProject "CGI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD32D0C01E48A15F00B209C6 /* Debug */,
+				BD32D0C11E48A15F00B209C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD32D0C21E48A15F00B209C6 /* Build configuration list for PBXNativeTarget "CGI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD32D0C31E48A15F00B209C6 /* Debug */,
+				BD32D0C41E48A15F00B209C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD32D0C51E48A15F00B209C6 /* Build configuration list for PBXNativeTarget "CGITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD32D0C61E48A15F00B209C6 /* Debug */,
+				BD32D0C71E48A15F00B209C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD32D0C81E48A15F00B209C6 /* Build configuration list for PBXNativeTarget "CGIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD32D0C91E48A15F00B209C6 /* Debug */,
+				BD32D0CA1E48A15F00B209C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD32D08D1E48A15F00B209C6 /* Project object */;
+}
