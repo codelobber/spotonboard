@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD107CB31E4C7B4600A26BC1 /* WEObjectDesk.m in Sources */ = {isa = PBXBuildFile; fileRef = BD107CB21E4C7B4600A26BC1 /* WEObjectDesk.m */; };
+		BD107CB61E4C804500A26BC1 /* WEDeskView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD107CB51E4C804500A26BC1 /* WEDeskView.m */; };
+		BD107CB91E4CAC9600A26BC1 /* WEObjectChip.m in Sources */ = {isa = PBXBuildFile; fileRef = BD107CB81E4CAC9600A26BC1 /* WEObjectChip.m */; };
 		BD32D09A1E48A15F00B209C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD32D0991E48A15F00B209C6 /* main.m */; };
 		BD32D09D1E48A15F00B209C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD32D09C1E48A15F00B209C6 /* AppDelegate.m */; };
 		BD32D0A01E48A15F00B209C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD32D09F1E48A15F00B209C6 /* ViewController.m */; };
@@ -41,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD107CB11E4C7B4600A26BC1 /* WEObjectDesk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WEObjectDesk.h; path = PlaydeckModule/UI/WEObjectDesk.h; sourceTree = "<group>"; };
+		BD107CB21E4C7B4600A26BC1 /* WEObjectDesk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WEObjectDesk.m; path = PlaydeckModule/UI/WEObjectDesk.m; sourceTree = "<group>"; };
+		BD107CB41E4C804500A26BC1 /* WEDeskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WEDeskView.h; path = PlaydeckModule/UI/WEDeskView.h; sourceTree = "<group>"; };
+		BD107CB51E4C804500A26BC1 /* WEDeskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WEDeskView.m; path = PlaydeckModule/UI/WEDeskView.m; sourceTree = "<group>"; };
+		BD107CB71E4CAC9600A26BC1 /* WEObjectChip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WEObjectChip.h; path = PlaydeckModule/UI/WEObjectChip.h; sourceTree = "<group>"; };
+		BD107CB81E4CAC9600A26BC1 /* WEObjectChip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WEObjectChip.m; path = PlaydeckModule/UI/WEObjectChip.m; sourceTree = "<group>"; };
 		BD32D0951E48A15F00B209C6 /* CGI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD32D0991E48A15F00B209C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD32D09B1E48A15F00B209C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -98,6 +107,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD107CB01E4C7AE900A26BC1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BD107CB11E4C7B4600A26BC1 /* WEObjectDesk.h */,
+				BD107CB21E4C7B4600A26BC1 /* WEObjectDesk.m */,
+				BD107CB71E4CAC9600A26BC1 /* WEObjectChip.h */,
+				BD107CB81E4CAC9600A26BC1 /* WEObjectChip.m */,
+				BD107CB41E4C804500A26BC1 /* WEDeskView.h */,
+				BD107CB51E4C804500A26BC1 /* WEDeskView.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
 		BD32D08C1E48A15F00B209C6 = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +216,7 @@
 		BD32D0D31E4B1E8500B209C6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BD107CB01E4C7AE900A26BC1 /* UI */,
 				BD32D0D61E4B1F5200B209C6 /* WEPlaydeckVC.h */,
 				BD32D0D71E4B1F5200B209C6 /* WEPlaydeckVC.m */,
 				BD32D0D91E4B1FCC00B209C6 /* WEPlaydeckVCDelegate.h */,
@@ -366,8 +389,11 @@
 				BD32D0A01E48A15F00B209C6 /* ViewController.m in Sources */,
 				BD32D0D81E4B1F5200B209C6 /* WEPlaydeckVC.m in Sources */,
 				BD32D0CE1E48AD1700B209C6 /* WEmometr.m in Sources */,
+				BD107CB31E4C7B4600A26BC1 /* WEObjectDesk.m in Sources */,
+				BD107CB61E4C804500A26BC1 /* WEDeskView.m in Sources */,
 				BD32D0EE1E4B4FA300B209C6 /* WEGlobalRouter.m in Sources */,
 				BD32D09D1E48A15F00B209C6 /* AppDelegate.m in Sources */,
+				BD107CB91E4CAC9600A26BC1 /* WEObjectChip.m in Sources */,
 				BD32D09A1E48A15F00B209C6 /* main.m in Sources */,
 				BD32D0E21E4B26A200B209C6 /* WEPlaydeckRouter.m in Sources */,
 			);
@@ -601,6 +627,7 @@
 				BD32D0C41E48A15F00B209C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD32D0C51E48A15F00B209C6 /* Build configuration list for PBXNativeTarget "CGITests" */ = {
 			isa = XCConfigurationList;
@@ -609,6 +636,7 @@
 				BD32D0C71E48A15F00B209C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD32D0C81E48A15F00B209C6 /* Build configuration list for PBXNativeTarget "CGIUITests" */ = {
 			isa = XCConfigurationList;
@@ -617,6 +645,7 @@
 				BD32D0CA1E48A15F00B209C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

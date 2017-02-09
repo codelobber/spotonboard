@@ -9,6 +9,6 @@
 @protocol WEPlaydeckVCDelegate
 
 //View interface
-
+-(void) initDesk;
 
 @end

@@ -14,6 +14,7 @@
 
 - (void) viewReady{
 	NSLog(@"Hello world");
+	[self.viewDelegate initDesk];
 }
 
 @end

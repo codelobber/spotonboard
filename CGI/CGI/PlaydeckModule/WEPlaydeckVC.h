@@ -10,9 +10,16 @@
 #import "WEPlaydeckVCDelegate.h"
 #import "WEPlaydeckDelegate.h"
 
+#import "WEDeskView.h"
+
+
 @interface WEPlaydeckVC : UIViewController <WEPlaydeckVCDelegate>
 
 //VIPER conectivity
 @property (nonatomic,strong) id presentorDelegate;
+
+
+@property (nonatomic,strong) WEDeskView * deskView;
+
 
 @end
