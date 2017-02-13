@@ -8,8 +8,9 @@
 
 #import <QuartzCore/QuartzCore.h>
 
+
 @interface WEObjectDesk : CALayer
 
-
+@property (nonatomic) CGFloat deskBorderWidth;
 
 @end

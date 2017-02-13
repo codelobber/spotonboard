@@ -7,23 +7,13 @@
 //
 
 #import <QuartzCore/QuartzCore.h>
+#import "WEPlaydeckDefs.h"
 
 @interface WEObjectChip : CALayer
 
 
-typedef NS_ENUM(NSInteger, WEObjectChipType){
-	WEObjectChipTypeNeutral=0,
-	WEObjectChipTypeRed,
-	WEObjectChipTypeBlue
-};
-
-typedef NS_ENUM(NSInteger, WEObjectChipOrientation){
-	WEObjectChipOrientationVertical=0,
-	WEObjectChipOrientationHorizontal
-};
-
-
 @property (nonatomic) WEObjectChipType chipType;
-@property (nonatomic) WEObjectChipType orientation;
+@property (nonatomic) WEObjectChipOrientation orientation;
+
 
 @end

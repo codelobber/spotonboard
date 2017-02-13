@@ -13,8 +13,11 @@
 @interface WEDeskView : UIView
 
 @property (nonatomic,strong) WEObjectDesk *desk;
-@property (nonatomic,strong) WEObjectChip *chip;
+@property (nonatomic,strong) WEObjectChip *chipRed;
+@property (nonatomic,strong) WEObjectChip *chipBlue;
+@property (nonatomic,strong) WEObjectChip *chipWhite;
 
 -(void) initializeDesk;
+-(void) moveChipWithType:(WEObjectChipType) chipType toPos:(CGRect) pos;
 
 @end

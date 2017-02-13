@@ -10,11 +10,20 @@
 #import <uikit/UIColor.h>
 #import <UIKit/UIBezierPath.h>
 
+@interface WEObjectDesk()
+
+@end
 
 @implementation WEObjectDesk
 
+
+-(void) setDeskBorderWidth:(CGFloat)borderWidth{
+	_deskBorderWidth = borderWidth;
+}
+
 -(void) drawInContext:(CGContextRef)ctx{
-	CGRect deckFrame = CGRectInset(self.bounds, 2.0, 2.0);
+	CGRect deckFrame = CGRectInset(self.frame, self.deskBorderWidth, self.deskBorderWidth);
+	CGRect borderFrame = CGRectInset(self.frame, self.deskBorderWidth/2, self.deskBorderWidth/2);
 	
 	const float rowx = CGRectGetMinX(deckFrame);
 	const float coly = CGRectGetMinY(deckFrame);
@@ -27,6 +36,7 @@
 	UIColor *firstRowbgcolor = [UIColor colorWithRed:0.8 green:1.0 blue:0.8 alpha:1.0];
  
 	UIBezierPath *deckPath = [UIBezierPath bezierPathWithRect:deckFrame];
+	UIBezierPath *borderPath = [UIBezierPath bezierPathWithRect:borderFrame];
  
 	// 1) fill bg
 	CGContextSetFillColorWithColor(ctx, bgcolor.CGColor);
@@ -65,8 +75,8 @@
 	CGContextSetShadowWithColor(ctx, CGSizeMake(0, 0), 0.0, [UIColor blackColor].CGColor);
 	
 	CGContextSetStrokeColorWithColor(ctx, bordercolor.CGColor);
-	CGContextSetLineWidth(ctx, 5);
-	CGContextAddPath(ctx, deckPath.CGPath);
+	CGContextSetLineWidth(ctx, self.borderWidth);
+	CGContextAddPath(ctx, borderPath.CGPath);
 	
 	CGContextStrokePath(ctx);
 	

@@ -38,7 +38,7 @@
 #pragma mark - View delegate
 
 - (void) initDesk{
-	const float marginh = round(CGRectGetWidth(self.view.frame)/10);
+	const float marginh = round(CGRectGetWidth(self.view.frame)/20);
 	const float marginb = round(CGRectGetHeight(self.view.frame)/6);
 	const float width = CGRectGetWidth(self.view.frame)-marginh*2;
 	
@@ -47,6 +47,14 @@
 	self.deskView = [[WEDeskView alloc] initWithFrame:deskRect];
 	
 	[self.view addSubview:self.deskView];
+	
+	
+//	[self.deskView moveChipWithType:WEObjectChipTypeBlue toPos:CGRectMake(2, 1, 2, 2)];
+//	[self.deskView moveChipWithType:WEObjectChipTypeRed toPos:CGRectMake(3, 2, 3, 3)];
+}
+
+-(void) moveChipWithType:(WEObjectChipType) chipType toPos:(CGRect) pos animated:(BOOL) animated{
+	[self.deskView moveChipWithType:chipType toPos:pos];
 }
 
 @end

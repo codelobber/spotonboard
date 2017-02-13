@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD05348A1E520A72009F78F5 /* WESession.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0534891E520A72009F78F5 /* WESession.m */; };
+		BD05348E1E520BEF009F78F5 /* WEChip.m in Sources */ = {isa = PBXBuildFile; fileRef = BD05348D1E520BEF009F78F5 /* WEChip.m */; };
 		BD107CB31E4C7B4600A26BC1 /* WEObjectDesk.m in Sources */ = {isa = PBXBuildFile; fileRef = BD107CB21E4C7B4600A26BC1 /* WEObjectDesk.m */; };
 		BD107CB61E4C804500A26BC1 /* WEDeskView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD107CB51E4C804500A26BC1 /* WEDeskView.m */; };
 		BD107CB91E4CAC9600A26BC1 /* WEObjectChip.m in Sources */ = {isa = PBXBuildFile; fileRef = BD107CB81E4CAC9600A26BC1 /* WEObjectChip.m */; };
@@ -44,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD0534881E520A72009F78F5 /* WESession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WESession.h; path = PlaydeckModule/WESession.h; sourceTree = "<group>"; };
+		BD0534891E520A72009F78F5 /* WESession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WESession.m; path = PlaydeckModule/WESession.m; sourceTree = "<group>"; };
+		BD05348B1E520AA5009F78F5 /* WeSessionOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WeSessionOutput.h; path = PlaydeckModule/WeSessionOutput.h; sourceTree = "<group>"; };
+		BD05348C1E520BEF009F78F5 /* WEChip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WEChip.h; path = PlaydeckModule/WEChip.h; sourceTree = "<group>"; };
+		BD05348D1E520BEF009F78F5 /* WEChip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WEChip.m; path = PlaydeckModule/WEChip.m; sourceTree = "<group>"; };
+		BD05348F1E5210D0009F78F5 /* WEPlaydeckDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WEPlaydeckDefs.h; path = PlaydeckModule/WEPlaydeckDefs.h; sourceTree = "<group>"; };
 		BD107CB11E4C7B4600A26BC1 /* WEObjectDesk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WEObjectDesk.h; path = PlaydeckModule/UI/WEObjectDesk.h; sourceTree = "<group>"; };
 		BD107CB21E4C7B4600A26BC1 /* WEObjectDesk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WEObjectDesk.m; path = PlaydeckModule/UI/WEObjectDesk.m; sourceTree = "<group>"; };
 		BD107CB41E4C804500A26BC1 /* WEDeskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WEDeskView.h; path = PlaydeckModule/UI/WEDeskView.h; sourceTree = "<group>"; };
@@ -209,6 +217,7 @@
 				BD32D0D31E4B1E8500B209C6 /* View */,
 				BD32D0E01E4B26A200B209C6 /* WEPlaydeckRouter.h */,
 				BD32D0E11E4B26A200B209C6 /* WEPlaydeckRouter.m */,
+				BD05348F1E5210D0009F78F5 /* WEPlaydeckDefs.h */,
 			);
 			name = playdeckModule;
 			sourceTree = "<group>";
@@ -237,6 +246,11 @@
 		BD32D0D51E4B1E9F00B209C6 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				BD0534881E520A72009F78F5 /* WESession.h */,
+				BD0534891E520A72009F78F5 /* WESession.m */,
+				BD05348B1E520AA5009F78F5 /* WeSessionOutput.h */,
+				BD05348C1E520BEF009F78F5 /* WEChip.h */,
+				BD05348D1E520BEF009F78F5 /* WEChip.m */,
 			);
 			name = Interactor;
 			sourceTree = "<group>";
@@ -391,8 +405,10 @@
 				BD32D0CE1E48AD1700B209C6 /* WEmometr.m in Sources */,
 				BD107CB31E4C7B4600A26BC1 /* WEObjectDesk.m in Sources */,
 				BD107CB61E4C804500A26BC1 /* WEDeskView.m in Sources */,
+				BD05348A1E520A72009F78F5 /* WESession.m in Sources */,
 				BD32D0EE1E4B4FA300B209C6 /* WEGlobalRouter.m in Sources */,
 				BD32D09D1E48A15F00B209C6 /* AppDelegate.m in Sources */,
+				BD05348E1E520BEF009F78F5 /* WEChip.m in Sources */,
 				BD107CB91E4CAC9600A26BC1 /* WEObjectChip.m in Sources */,
 				BD32D09A1E48A15F00B209C6 /* main.m in Sources */,
 				BD32D0E21E4B26A200B209C6 /* WEPlaydeckRouter.m in Sources */,

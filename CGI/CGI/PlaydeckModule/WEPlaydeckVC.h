@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "WEPlaydeckVCDelegate.h"
 #import "WEPlaydeckDelegate.h"
-
+#import "WEPlaydeckDefs.h"
 #import "WEDeskView.h"
 
 
@@ -20,6 +20,9 @@
 
 
 @property (nonatomic,strong) WEDeskView * deskView;
+
+
+
 
 
 @end

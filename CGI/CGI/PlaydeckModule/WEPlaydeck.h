@@ -9,10 +9,12 @@
 #import <Foundation/Foundation.h>
 #import "WEPlaydeckDelegate.h"
 #import "WEPlaydeckVCDelegate.h"
+#import "WeSessionOutput.h"
 
 @interface WEPlaydeck : NSObject <WEPlaydeckDelegate>
 
 //VIPER conectivity
 @property (nonatomic,strong) id <WEPlaydeckVCDelegate> viewDelegate;
+@property (nonatomic,strong) id <WeSessionOutput> interactorDelegate;
 
 @end

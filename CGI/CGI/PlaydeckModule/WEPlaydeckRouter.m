@@ -11,6 +11,7 @@
 
 #import "WEPlaydeckVC.h"
 #import "WEPlaydeck.h"
+#import "WESession.h"
 
 
 @interface WEPlaydeckRouter()
@@ -35,9 +36,12 @@
 
 - (void) initViper:(WEPlaydeckVC *)view{
 	WEPlaydeck * presentor = [WEPlaydeck new];
+	WESession * interactor = [WESession new];
 
 	view.presentorDelegate = presentor;
 	presentor.viewDelegate = view;
+	presentor.interactorDelegate = interactor;
+	interactor.presentorDelegate = presentor;
 }
 
 - (void)presentInterfaceFromWindow:(UIWindow *)window{
